@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: url(background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 150px;
+}
+header h1 {
+  padding: 25px;
+  color: white;
+  font-size: 50px;
+  font-family: Georgia;
+}
+#container {
+  padding: 50px;
+}
+form {
+  width: 50%;
+  margin: 20px;
+  text-align: left;
+}
+form h1 {
+  font-size: 25px;
+  font-family: Georgia;
+  color: #293791;
+}
+form input {
+  width: 100%;
+  line-height: 30px;
+  background-color: #FAE884;
+}
+form p {
+  text-align: center;
+}
+#table-title {
+  font-size: 25px;
+  font-family: Georgia;
+  padding: 20px;
+  color: #293791;
+}
+table {
+  border: 2px solid #000;
+  border-collapse: collapse;
+  text-align: left;
+  width: 20%;
+}
+table th {
+  font-size: 20px;
+  width: 10%;
+  border: 1px solid #000;
+  padding: 5px;
+}
+table tbody tr td{
+  padding-left: 5px;
+  border-left: 1px solid #000;
+}
